@@ -23,6 +23,7 @@ const MealItemForm = (props) => {
       setAmountIsValid(false);
       return;
     }
+    // add the entered number of items to the cart
     props.onAddToCart(enteredAmountNumber);
   };
 
